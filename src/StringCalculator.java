@@ -19,7 +19,7 @@ public class StringCalculator {
             result = Calculator.calculate(result, symbol, second);
             i += 2; // 1, 3, 5, ... 부분이 연산기호
         }
-        System.out.println("총 결과 : " + result);
+        Output.print(result);
         scan.close();
     }
 }
